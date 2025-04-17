@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ESP32 Web Server Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="favicon.png">
+    </head>
+
+    <body>
+        <h1>Welcome to ESP32 Web Server</h1>
+        <p style="color: rgb(69, 90, 225); font-size: 20px;">This is a simple web page served by the ESP32.</p>
+        <p><b>ESP32 is a low-cost, low-power system on a chip (SoC) with integrated Wi-Fi and dual-mode Bluetooth.</b></p>
+        <p><strong>It is widely used in IoT applications.</strong></p>
+        <p><em>Feel free to explore more about ESP32!</em></p>
+        <p><a href="https://www.esp32.com/">ESP32 Official Website</a></p>
+        <img src="ESP32.png" width="auto">
+        <h2>Button to Control my Outputs</h2>
+        <p><button>Turn ON</button></p>
+        <p><button>Turn OFF</button></p>
+        <p><a href="https://randomnerdtutorials.com/"><button>RNT Website</button><a><p>
+        <p><a href="https://www.youtube.com/user/RandomNerdTutorials"><button>RNT Youtube Channel</button></a></p>    
+        <a href="https://randomnerdtutorials.com/projects-esp32/"><img src="ESP32.png">
+        <p><a href="outputs.html"><button>This redirects to the outputs page.</button></a></p>
+        <br>
+        <p>Temperature is 32.26 ºC</p>
+        <br>
+        <p>Temperature is 32.26 &deg;C</p>
+        <br>
+        <p>Temperature is 32.26 &#x000b0;C</p>
+        <p>Temperature is 32.26 &#176;C</p>
+        <br>
+        <table>
+            <tr>
+                <th>MEASUREMENT</th>
+                <th>VALUE</th>
+            </tr>
+            <tr>
+                <td>Temperature</td>
+                <td>32.26 &deg;C</td>
+            </tr>
+            <tr>
+                <td>Temperature</td>
+                <td>32.26 &deg;F</td>
+            </tr>
+            <tr>
+                <td>Humidity</td>
+                <td>45.00 %</td>
+            </tr>
+            <tr>
+                <td>Pressure</td>
+                <td>1013.25 hPa</td>
+            </tr>
+            <tr>
+                <td>Approx. Altitude</td>
+                <td>73 meters</td>
+            <tr>
+                <td>Humidity</td>
+                <td>58 &deg;</td>
+            </tr>
+        </table>
+    </body>
+
+    <form action="/get" method ="GET">
+        <p>
+            <label for="input1">Input 1:</label>
+            <input type="text" id="input1" name="input1">
+            <input type="submit" value="Submit">
+        </p>
+    </form>
+</html>

@@ -1,0 +1,12 @@
+.box {
+    background-color: rgb(4, 221, 250);
+    font-size: 20px;
+}
+
+.mygrid {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}

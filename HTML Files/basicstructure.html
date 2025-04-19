@@ -4,10 +4,13 @@
         <title>ESP32 Web Server Page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/png" href="favicon.png">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
     </head>
 
     <body>
-        <h1>Welcome to ESP32 Web Server</h1>
+    <div class="content">
+        <p>ESP 32 Project Homepage</p>
+    </div>
         <p style="color: rgb(69, 90, 225); font-size: 20px;">This is a simple web page served by the ESP32.</p>
         <p><b>ESP32 is a low-cost, low-power system on a chip (SoC) with integrated Wi-Fi and dual-mode Bluetooth.</b></p>
         <p><strong>It is widely used in IoT applications.</strong></p>
@@ -21,6 +24,7 @@
         <p><a href="https://www.youtube.com/user/RandomNerdTutorials"><button>RNT Youtube Channel</button></a></p>    
         <a href="https://randomnerdtutorials.com/projects-esp32/"><img src="ESP32.png">
         <p><a href="outputs.html"><button>This redirects to the outputs page.</button></a></p>
+        
         <br>
         <p>Temperature is 32.26 ºC</p>
         <br>
@@ -29,6 +33,7 @@
         <p>Temperature is 32.26 &#x000b0;C</p>
         <p>Temperature is 32.26 &#176;C</p>
         <br>
+        
         <table>
             <tr>
                 <th>MEASUREMENT</th>
@@ -67,4 +72,7 @@
             <input type="submit" value="Submit">
         </p>
     </form>
+
+    <p><button class="button button2">OFF</button></p>
+
 </html>
